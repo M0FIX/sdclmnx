@@ -1,12 +1,12 @@
 cd /content
 env TF_CPP_MIN_LOG_LEVEL=1
-git clone https://github.com/M0FIX/sdclmnx.git
+!wget https://raw.githubusercontent.com/M0FIX/sdclmnx/main/libtcmalloc_minimal.so.4
 apt -y update -qq
-env LD_PRELOAD=/content/sdclmnx/libtcmalloc_minimal.so.4
+env LD_PRELOAD=/content/libtcmalloc_minimal.so.4
 apt -y install -qq aria2 libcairo2-dev pkg-config python3-dev
 pip install -q xformers==0.0.20 triton==2.0.0 -U
 git clone https://github.com/vladmandic/automatic
 
 cd /content/automatic
 SAFETENSORS_FAST_GPU=1
-python launch.py --safe --upgrade --listen --theme dark --share --autolaunch --backend diffusers 
+python launch.py --safe --upgrade --listen --theme dark --share --autolaunch --backend diffusers
