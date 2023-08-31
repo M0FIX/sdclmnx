@@ -1,0 +1,6 @@
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui /content/ui
+git clone https://github.com/etherealxx/Umi-AI /content/ui/extensions/Umi-AI
+git clone https://github.com/M0FIX/additional-networks /content/ui/extensions/additional-networks
+git clone https://github.com/M0FIX/tunnels /content/ui/extensions/tunnels
+git clone https://github.com/fkunn1326/openpose-editor /content/ui/extensions/openpose-editor
+git clone https://github.com/Mikubill/sd-webui-controlnet /content/ui/extensions/controlnet
