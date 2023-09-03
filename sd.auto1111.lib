@@ -1,2 +1,1 @@
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui /content/ui
-git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-tensorrt /content/ui/extensions/tensorrt
